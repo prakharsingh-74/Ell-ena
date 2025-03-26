@@ -7,7 +7,7 @@ import 'features/auth/presentation/pages/splash_screen.dart';
 import 'features/auth/presentation/pages/login_page.dart';
 import 'features/auth/presentation/pages/signup_page.dart';
 import 'features/dashboard/presentation/pages/dashboard_page.dart';
-import 'features/home/presentation/pages/home_page.dart';
+import 'features/chat/presentation/pages/chat_page.dart';
 import 'features/tasks/presentation/pages/tasks_page.dart';
 import 'features/meetings/presentation/pages/meetings_page.dart';
 import 'features/profile/presentation/pages/profile_page.dart';
@@ -58,7 +58,7 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _pages = [
     const DashboardPage(),
-    const HomePage(),
+    const ChatPage(),
     const TasksPage(),
     const MeetingsPage(),
     const ProfilePage(),
